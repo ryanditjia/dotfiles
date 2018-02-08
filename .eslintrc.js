@@ -49,6 +49,16 @@ module.exports = {
     node: true,
     es6: true,
   },
+  // Remove if not on Gatsby project
+  settings: {
+    // Provided by Gatsby
+    'import/core-modules': ['react', 'prop-types'],
+  },
+  // Remove if not on Gatsby project
+  globals: {
+    // Provided by Gatsby
+    'graphql': true,
+  },
   rules: {
     // No semi
     semi: ['error', 'never'],
