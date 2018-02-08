@@ -111,6 +111,9 @@ alias eslintgatsby="yarn add -D eslint babel-eslint eslint-config-google eslint-
 # airbnb
 alias eslintairbnb="yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier-eslint"
 
+# create-react-app
+alias eslintcra="yarn add -D eslint babel-eslint eslint-config-react-app eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier-eslint"
+
 # copy eslintrc to project
 alias cpeslint="cp ~/.dotfiles/.eslintrc.js ."
 

@@ -53,6 +53,12 @@ module.exports = {
     // No semi
     semi: ['error', 'never'],
 
+    // Prevent error with no semi
+    'no-unexpected-multiline': ['error'],
+
+    // So you can use semi at start, for lines beginning with [ ( `
+    'semi-style': ['off'],
+
     // setting max line length to 80
     'max-len': ['error', { code: 80 }],
 
