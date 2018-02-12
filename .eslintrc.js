@@ -81,6 +81,9 @@ module.exports = {
     // This rule requires return statements to either always or never specify values
     'consistent-return': ['error'],
 
+    // Gatsby often requires usage
+    'react/no-danger': ['off'],
+
     // .js for React is ok
     'react/jsx-filename-extension': ['warn', { extensions: ['.js', '.jsx'] }],
 
