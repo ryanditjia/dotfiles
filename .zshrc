@@ -63,7 +63,6 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   osx
-  yarn
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -106,13 +105,13 @@ alias flush="sudo discoveryutil udnsflushcaches"
 alias rmnm="rm -rf node_modules"
 
 # gatsbyjs.org implementation
-alias eslintgatsby="yarn add -D eslint babel-eslint eslint-config-google eslint-config-prettier eslint-plugin-prettier eslint-plugin-react prettier-eslint"
+alias eslintgatsby="npm i -D eslint babel-eslint eslint-config-google eslint-config-prettier eslint-plugin-prettier eslint-plugin-react prettier-eslint"
 
 # airbnb
-alias eslintairbnb="yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier-eslint"
+alias eslintairbnb="npm i -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier-eslint"
 
 # create-react-app
-alias eslintcra="yarn add -D eslint babel-eslint eslint-config-react-app eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier-eslint"
+alias eslintcra="npm i -D eslint babel-eslint eslint-config-react-app eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier-eslint"
 
 # copy eslintrc to project
 alias cpeslint="cp ~/.dotfiles/.eslintrc.js ."
@@ -137,7 +136,7 @@ export LSCOLORS="gxfxcxdxbxegedabagacad"
 if [ -s "$HOME/.nvm/nvm.sh" ] && [ ! "$(type -f __init_nvm)" = function ]; then
   export NVM_DIR="$HOME/.nvm"
   [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"
-  declare -a __node_commands=('nvm' 'node' 'npm' 'yarn' 'gulp' 'grunt' 'webpack' 'create-react-app' 'gatsby')
+  declare -a __node_commands=('nvm' 'node' 'npm' 'yarn' 'gulp' 'grunt' 'webpack' 'create-react-app' 'gatsby' 'npx')
   function __init_nvm() {
     for i in "${__node_commands[@]}"; do unalias $i; done
     . "$NVM_DIR"/nvm.sh
