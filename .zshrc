@@ -101,7 +101,7 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 alias tut="cd ~/Tutorials"
 alias pg="cd ~/Playgrounds"
 alias ws="cd ~/Workspace"
-alias flush="sudo discoveryutil udnsflushcaches"
+alias flush="sudo killall -HUP mDNSResponder; sleep 2; echo DNS flushed | say"
 alias rmnm="rm -rf node_modules"
 
 # gatsbyjs.org implementation
