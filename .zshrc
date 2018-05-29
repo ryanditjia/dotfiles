@@ -117,7 +117,10 @@ alias eslintcra="npm i -D eslint babel-eslint eslint-config-react-app eslint-plu
 alias cpeslint="cp ~/.dotfiles/.eslintrc.js ."
 
 # npm
+alias ns="npm start"
 alias nr="npm run"
+alias nrb="npm run build"
+alias nrd="npm run dev"
 
 # load Pure prompt
 autoload -U promptinit; promptinit
