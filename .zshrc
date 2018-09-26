@@ -104,18 +104,6 @@ alias ws="cd ~/Workspace"
 alias flush="sudo killall -HUP mDNSResponder; sleep 2; echo DNS flushed | say"
 alias rmnm="rm -rf node_modules"
 
-# gatsbyjs.org implementation
-alias eslintgatsby="npm i -D eslint babel-eslint eslint-config-google eslint-config-prettier eslint-plugin-prettier eslint-plugin-react prettier-eslint"
-
-# airbnb
-alias eslintairbnb="npm i -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier-eslint"
-
-# create-react-app
-alias eslintcra="npm i -D eslint babel-eslint eslint-config-react-app eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier-eslint"
-
-# copy eslintrc to project
-alias cpeslint="cp ~/.dotfiles/.eslintrc.js ."
-
 # npm
 alias ns="npm start"
 alias nr="npm run"
