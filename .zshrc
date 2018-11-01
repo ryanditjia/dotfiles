@@ -103,6 +103,8 @@ alias pg="cd ~/Playgrounds"
 alias ws="cd ~/Workspace"
 alias flush="sudo killall -HUP mDNSResponder; sleep 2; echo DNS flushed | say"
 alias rmnm="rm -rf node_modules"
+# remove node_modules recursively
+alias rmnmrec="find . -name "node_modules" -exec rm -rf '{}' +"
 
 # npm
 alias ns="npm start"
