@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.composer/vendor/bin:$PATH
+export PATH=$HOME/.composer/vendor/bin:/usr/local/sbin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/ryanditjia/.oh-my-zsh
