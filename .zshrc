@@ -63,6 +63,7 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   osx
+  yarn
 )
 
 source $ZSH/oh-my-zsh.sh
