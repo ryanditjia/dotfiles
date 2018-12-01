@@ -1,5 +1,6 @@
-// npx install-peerdeps --dev eslint-config-artycurate
+// npx install-peerdeps --dev eslint-config-ryanditjia
 
 module.exports = {
-  extends: ['artycurate', 'artycurate/gatsby'],
+  extends: ['ryanditjia'],
+  // extends: ['ryanditjia', 'ryanditjia/gatsby']
 }
